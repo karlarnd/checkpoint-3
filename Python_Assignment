@@ -1,0 +1,66 @@
+Exercise 1: Create a string, number, list, and boolean, each stored in their own variable.
+
+string_example = 'Hello world'
+number_example = 6
+list_example = ['Item 1', 'Item 2', 'Item 3']
+boolean_example = True
+
+
+Exercise 2: Use an index to grab the first 3 letters in your string, store that in a variable. 
+# ACLARACION: Este ejercicio lo puedo hacer de dos formas distintas
+
+# Metodo 1
+
+Index = string [0:3]
+
+# Metodo 2
+
+Index= string [:3]
+
+
+Exercise 3: Use an index to grab the first element from your list.
+
+list_first = list_example[0]
+
+
+Exercise 4: Create a new number variable that adds 10 to your original number.
+
+Incremented_number = number + 10
+
+
+Exercise 5: Use an index to get the last element in your list.
+
+list_last = list_example[-1]
+
+Exercise 6: Use split to transform the following string into a list.
+	names = 'harry,alex,susie,jared,gail,conner'
+
+names_list = names.split(',')
+
+
+Exercise 7: Get the first word from your string using indexes. Use the upper function to transform the letters into uppercase. Create a new string that takes the uppercase word and the rest of the original string.
+
+first_word = string_example[:4]
+upper_word = first_word.upper()
+new_string = f'{upper_word}{string_example[4:]}'
+
+Exercise 8: Use string interpolation to print out a sentence that contains your number variable.
+
+# ACLARACION: Este ejercicio lo puedo hacer de tres formas distintas
+
+# Método 1
+
+new_sentence = f'The probability of precipitation today is {number_example}'
+
+# Método 2 usando format
+
+new_sentence = 'The probability of precipitation today is {0}'.format(number_example)
+
+# Método 3 convirtiendo el número en string
+
+new_sentence = 'The probability of precipitation today is ' + str(number_example)
+
+
+Exercise 9: Print “hello world”.
+
+print('hello world')
